@@ -24,3 +24,23 @@ O layout pode ser visto através do Figma
 Detalhes do desafio
 
 [Ignite challenge 6](https://efficient-sloth-d85.notion.site/Desafio-06-Criando-uma-aplica-o-Fullstack-d85bc26f34754d0590b6116a35c9de23)
+
+## Instruções
+Variáveis de ambiente
+> cp .env.example .env.local
+
+Instalar dependências
+
+> yarn
+
+Gerar migrations
+
+> npx prisma migrate dev
+
+Criar seeds
+
+> npx prisma db seed
+
+Rodar projeto
+
+> yarn dev
